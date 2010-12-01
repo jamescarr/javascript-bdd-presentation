@@ -1,0 +1,13 @@
+{
+ "src_dir"  : "/public/javascript/",
+ "spec_dir" : "/spec/",
+
+ "server":{
+   "port":8124
+ },
+
+ "externals":[
+  "/public/javascript/lib/jquery.min.js",
+  "/public/javascript/lib/jasmine-jquery.js"
+ ]
+}

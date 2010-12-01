@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"0>
+    
+      <title>Example</title>
+       <script type="text/javascript" src="public/javascript/lib/jquery.min.js"></script>     
+       <script src="public/javascript/placeholder.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript" charset="utf-8">
+        $(function(){
+          $('input').each(function(){
+            placeholder.emulate($(this));
+          });
+        });
+      </script> 
+      <style type="text/css" media="screen">
+        .placeholder{
+          color:#aaa;
+        }
+      </style>
+    </head>
+  <body>
+    
+    <input type="text" placeholder="Your Name">
+    
+    <br />
+    <input type="text" placeholder="Your Name" value="James Carr">
+
+  </body>
+</html>
